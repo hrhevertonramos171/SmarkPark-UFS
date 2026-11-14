@@ -1,4 +1,3 @@
-from xml.dom.pulldom import PROCESSING_INSTRUCTION
 
 import financeiro as fin
 import config

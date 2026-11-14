@@ -1,4 +1,3 @@
-from operator import truediv
 
 import config
 
@@ -31,7 +30,7 @@ def pedir_horas():
     valido = False
     while not valido:
         try:
-            horas = int(input("Quantas horas o veículo ficou "))
+            horas = int(input("Quantas horas o veículo ficou: "))
         except ValueError:
             print("Informe só números inteiros")
         else:
