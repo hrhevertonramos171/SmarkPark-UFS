@@ -68,7 +68,7 @@ while opcao != 0:
             mostrar_faturamento(faturamento, total_saidas)
 
         case 5:
-            mostrar_relatorios(total_entradas, total_saidas, ocupadas)
+            mostrar_relatorios(total_entradas, total_saidas, ocupadas, faturamento)
 
         case 6:
             mostrar_precos()
